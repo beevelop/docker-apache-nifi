@@ -1,10 +1,10 @@
-![Apache NiFi logo](http://nifi.apache.org/images/niFi-logo-horizontal.png "Apache NiFi")
+![Apache NiFi logo](https://nifi.apache.org/images/niFi-logo-horizontal.png "Apache NiFi")
 # dockerfile-apache-nifi
-## Version 0.2.1
+## Version 0.3.0
 
 ### Apache NiFi Dockerfile
 
-Provides a Dockerfile and associated scripts for configuring an instance of [Apache NiFi](http://nifi.apache.org) to run with certificate authentication.  
+Provides a Dockerfile and associated scripts for configuring an instance of [Apache NiFi](https://nifi.apache.org) to run with certificate authentication.  
 
 ## Sample Usage
 
