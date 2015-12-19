@@ -2,7 +2,7 @@ FROM            beevelop/java
 
 MAINTAINER      Maik Hummel <m@ikhummel.com>
 
-ENV             DIST_MIRROR             https://dist.apache.org/repos/dist/release/nifi
+ENV             DIST_MIRROR             https://archive.apache.org/dist/nifi/
 ENV             NIFI_HOME               /opt/nifi
 ENV             VERSION                 0.3.0
 
