@@ -13,7 +13,7 @@ ADD init.sh .
 RUN apt-get -qq update && apt-get -qq install -y curl && \
     mkdir -p /opt/nifi && \
     chmod +x init.sh && \
-    curl ${DIST_MIRROR}/${NIFI_VERSION}/nifi-${NIFI_VERSION}-bin.tar.gz | tar xvz -C ${NIFI_HOME} --strip-components=1 && \
+    curl ${DIST_MIRROR}/${NIFI_VERSION}/nifi-${NIFI_VERSION}-bin.tar.gz | tar xz -C ${NIFI_HOME} --strip-components=1 && \
     sed -i -e "s|^nifi.ui.banner.text=.*$|nifi.ui.banner.text=Docker NiFi ${NIFI_VERSION}|" ${NIFI_HOME}/conf/nifi.properties
 
 EXPOSE 80 443
