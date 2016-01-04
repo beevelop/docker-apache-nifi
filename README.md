@@ -1,5 +1,5 @@
 ![Apache NiFi logo](https://nifi.apache.org/images/niFi-logo-horizontal.png "Apache NiFi")
-# Apache NiFi v0.3.0
+# Apache NiFi v0.4.1
 
 > Provides a Dockerfile and associated scripts for configuring an instance of [Apache NiFi](https://nifi.apache.org) to run with certificate authentication.
 
