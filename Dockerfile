@@ -8,7 +8,7 @@ ENV DIST_MIRROR="https://archive.apache.org/dist/nifi/" \
 
 WORKDIR /opt
 
-ADD init.sh .
+COPY init.sh /opt/init.sh
 
 RUN apt-get -qq update && apt-get -qq install -y curl && \
     mkdir -p /opt/nifi && \
