@@ -5,5 +5,7 @@ services:
 
 script:
   - docker build -t nifi .
-  - docker run -d --name nifi -e DISABLE_SSL=true nifi /bin/sh -c "java -version"
-  - docker exec nifi /bin/sh -c "apt-get update && apt-get install curl -y --no-install-recommends && curl -f localhost:80"
+  - docker run -d --name nifi -e DISABLE_SSL=true nifi
+  - sleep 84
+  - docker logs nifi
+  - docker exec nifi /bin/sh -c "curl -f localhost:80/nifi/"
