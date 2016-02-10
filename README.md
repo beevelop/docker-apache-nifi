@@ -1,3 +1,8 @@
+[![Travis](https://img.shields.io/travis/beevelop/docker-nifi.svg?style=flat-square)](https://travis-ci.org/beevelop/docker-nifi)
+[![Docker Pulls](https://img.shields.io/docker/pulls/beevelop/nifi.svg?style=flat-square)](https://links.beevelop.com/d-nifi)
+[![ImageLayer](https://badge.imagelayers.io/beevelop/nifi:latest.svg)](https://imagelayers.io/?images=beevelop/nifi:latest)
+[![Beevelop](https://links.beevelop.com/honey-badge)](https://beevelop.com)
+
 ![Apache NiFi logo](https://nifi.apache.org/images/niFi-logo-horizontal.png "Apache NiFi")
 # Apache NiFi v0.4.1
 
